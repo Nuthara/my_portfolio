@@ -166,7 +166,8 @@ header.shadow {
 }
  
 .about-img img {
-  width: 80%;
+  width: 50%;
+  margin-left: 4rem;
   border-radius: 0.5rem;
 }
 .about-text p {
@@ -241,13 +242,13 @@ span {
   width: 74%;
 }
 .react-bar {
-  width: 80%;
+  width: 94%;
 }
 .services-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
   justify-content: center;
-  gap: 1rem;
+  gap: 1.5rem;
   margin-top: 2rem;
 }
 .services-box {
@@ -258,7 +259,7 @@ span {
   align-items: center;
   text-align: center;
   border-radius: 0.5rem;
-  border-bottom: 2px solid var(--main-color);
+  border-bottom: 0px solid var(--main-color);
   box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
 }
 .services-box:hover{
@@ -339,7 +340,7 @@ form textarea {
 .contact-button {
   width: 160px;
   cursor: pointer;
-  background: #2768d9;
+  background: #7165B1;
   color: #fff;
   justify-content: center;
   text-transform: uppercase;
@@ -353,7 +354,7 @@ form textarea {
   display: grid;
   place-items: center;
   padding: 20px;
-  background: #ebebeb;
+  background: var(--main-color);
   color: #000;
 }
 .footer h2 {
